@@ -18,9 +18,9 @@ export default function Navbar() {
       <div className="sm:hidden">
         <Button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="p-2 focus:outline-none"
+          className="p-2 focus:outline-none bg-slate-700"
         >
-          <FiMenu className="h-[28px] w-[28px] text-[#fff]" />
+          <FiMenu className="h-[50px] w-[50px] text-[#fff]" />
         </Button>
       </div>
       {/* Creating links easy to navigate between pages hidden on mobile screen */}
