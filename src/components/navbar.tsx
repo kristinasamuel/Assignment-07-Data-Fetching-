@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-slate-700 h-[48px] flex  items-center justify-between p-4">
       {/* Logo  */}
-      <h2 className="text-center text-[32px] font-semibold text-gray-300 uppercase hover:text-gray-100">
+      <h2 className="text-[32px] font-semibold text-gray-300 uppercase hover:text-gray-100">
         kristina
       </h2>
        {/* Menu Icon ,show on mobile screen */}

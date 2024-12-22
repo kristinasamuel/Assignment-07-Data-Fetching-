@@ -31,7 +31,7 @@ export default function ClientSideRendering() {
         setData(parsedResponse);
         console.log("New Products >>>>", parsedResponse);
       } catch (error) {
-        console.error("Error fetching products:", error);
+        console.error("Data fetch failed: Products could not be loaded successfully", error);
       } finally {
         setLoading(false);
       }
@@ -62,7 +62,7 @@ export default function ClientSideRendering() {
           {data.map((products, index) => (
             <Card
               key={index}
-              className="flex flex-col border border-black p-4 mb-10"
+              className="border border-black p-4 mb-10"
             >
               <Image
                 src={products.image}
